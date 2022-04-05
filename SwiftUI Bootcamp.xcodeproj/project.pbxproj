@@ -14,6 +14,8 @@
 		A8C2EE8027FC38AB008E5EFD /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7F27FC38AB008E5EFD /* LongPressGesture.swift */; };
 		A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE8127FC4813008E5EFD /* MagnificationGesture.swift */; };
 		A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE8327FC4F2B008E5EFD /* RotationGestureView.swift */; };
+		A8D91E5F27FC73070084D59D /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D91E5E27FC73070084D59D /* DragGestureView.swift */; };
+		A8D91E6127FC7B2C0084D59D /* DragGestureView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D91E6027FC7B2C0084D59D /* DragGestureView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		A8C2EE7F27FC38AB008E5EFD /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		A8C2EE8127FC4813008E5EFD /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
 		A8C2EE8327FC4F2B008E5EFD /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
+		A8D91E5E27FC73070084D59D /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		A8D91E6027FC7B2C0084D59D /* DragGestureView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				A8C2EE7F27FC38AB008E5EFD /* LongPressGesture.swift */,
 				A8C2EE8127FC4813008E5EFD /* MagnificationGesture.swift */,
 				A8C2EE8327FC4F2B008E5EFD /* RotationGestureView.swift */,
+				A8D91E5E27FC73070084D59D /* DragGestureView.swift */,
+				A8D91E6027FC7B2C0084D59D /* DragGestureView2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 				A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */,
 				A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */,
 				A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */,
+				A8D91E6127FC7B2C0084D59D /* DragGestureView2.swift in Sources */,
+				A8D91E5F27FC73070084D59D /* DragGestureView.swift in Sources */,
 				A8C2EE8027FC38AB008E5EFD /* LongPressGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
