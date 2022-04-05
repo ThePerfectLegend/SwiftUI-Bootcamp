@@ -12,6 +12,7 @@
 		A8C2EE7627FC37BC008E5EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */; };
 		A8C2EE7927FC37BC008E5EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C2EE7827FC37BC008E5EFD /* Preview Assets.xcassets */; };
 		A8C2EE8027FC38AB008E5EFD /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7F27FC38AB008E5EFD /* LongPressGesture.swift */; };
+		A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE8127FC4813008E5EFD /* MagnificationGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8C2EE7827FC37BC008E5EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8C2EE7F27FC38AB008E5EFD /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		A8C2EE8127FC4813008E5EFD /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				A8C2EE7127FC37B9008E5EFD /* SwiftUI_BootcampApp.swift */,
 				A8C2EE7327FC37B9008E5EFD /* ContentView.swift */,
 				A8C2EE7F27FC38AB008E5EFD /* LongPressGesture.swift */,
+				A8C2EE8127FC4813008E5EFD /* MagnificationGesture.swift */,
 				A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */,
 				A8C2EE7727FC37BC008E5EFD /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C2EE7427FC37B9008E5EFD /* ContentView.swift in Sources */,
+				A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */,
 				A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */,
 				A8C2EE8027FC38AB008E5EFD /* LongPressGesture.swift in Sources */,
 			);
