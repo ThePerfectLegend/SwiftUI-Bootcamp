@@ -42,7 +42,6 @@ struct DragGestureView2: View {
                 )
             
             Text("\(currentDragOffsetY)")
-            
         }
     }
 }
