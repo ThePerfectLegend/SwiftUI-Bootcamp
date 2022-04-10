@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8196C772802BE50008AEF12 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8196C762802BE4F008AEF12 /* MultipleSheets.swift */; };
 		A85DE03C2801B3E1006879B9 /* ScrollReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */; };
 		A85DE03E2801BBA6006879B9 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */; };
 		A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7127FC37B9008E5EFD /* SwiftUI_BootcampApp.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8196C762802BE4F008AEF12 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderView.swift; sourceTree = "<group>"; };
 		A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		A8C2EE6E27FC37B9008E5EFD /* SwiftUI Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 			children = (
 				A85DE03F2801BBBA006879B9 /* Gesture */,
 				A85DE0402801BBCA006879B9 /* Readers */,
+				A8196C762802BE4F008AEF12 /* MultipleSheets.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				A8C2EE7427FC37B9008E5EFD /* ContentView.swift in Sources */,
 				A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */,
 				A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */,
+				A8196C772802BE50008AEF12 /* MultipleSheets.swift in Sources */,
 				A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */,
 				A8D91E6127FC7B2C0084D59D /* DragGestureView2.swift in Sources */,
 				A8D91E5F27FC73070084D59D /* DragGestureView.swift in Sources */,
