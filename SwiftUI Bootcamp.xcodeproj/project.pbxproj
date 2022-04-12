@@ -24,6 +24,7 @@
 		A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE8327FC4F2B008E5EFD /* RotationGestureView.swift */; };
 		A8D91E5F27FC73070084D59D /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D91E5E27FC73070084D59D /* DragGestureView.swift */; };
 		A8D91E6127FC7B2C0084D59D /* DragGestureView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D91E6027FC7B2C0084D59D /* DragGestureView2.swift */; };
+		A8FBF82728059BAB00348E77 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBF82628059BAB00348E77 /* LocalNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		A8C2EE8327FC4F2B008E5EFD /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
 		A8D91E5E27FC73070084D59D /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		A8D91E6027FC7B2C0084D59D /* DragGestureView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView2.swift; sourceTree = "<group>"; };
+		A8FBF82628059BAB00348E77 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				A86C63E328043BFA00D645E9 /* MaskView.swift */,
 				A8196C762802BE4F008AEF12 /* MultipleSheets.swift */,
+				A8FBF82628059BAB00348E77 /* LocalNotification.swift */,
 				A85DE03F2801BBBA006879B9 /* Gesture */,
 				A85DE0402801BBCA006879B9 /* Readers */,
 				A86C63E72804464800D645E9 /* Sounds */,
@@ -214,6 +217,7 @@
 				A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */,
 				A86C63E6280441F100D645E9 /* SoundEffects.swift in Sources */,
 				A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */,
+				A8FBF82728059BAB00348E77 /* LocalNotification.swift in Sources */,
 				A8196C772802BE50008AEF12 /* MultipleSheets.swift in Sources */,
 				A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */,
 				A8D91E6127FC7B2C0084D59D /* DragGestureView2.swift in Sources */,
