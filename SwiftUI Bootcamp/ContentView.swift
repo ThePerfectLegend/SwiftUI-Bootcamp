@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Multithreading()
+        MaskView()
     }
 }
 
@@ -18,3 +18,20 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//struct ContentView: View {
+//    
+//    @StateObject var vm = getJoke()
+//    
+//    var body: some View {
+//        VStack(spacing: 40) {
+//            CustomDatePicker(currentDate: $vm.currentDate)
+//            Button {
+//                print(vm.currentDate)
+//            } label: {
+//                Text("Show selected date")
+//            }
+//
+//        }
+//    }
+//}

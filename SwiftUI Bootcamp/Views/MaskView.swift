@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MaskView: View {
     
-    @State var rating: Int = 3
+    @State var rating: Double = 3.5
     
     var body: some View {
         ZStack {
@@ -19,30 +19,29 @@ struct MaskView: View {
     }
     
     private var overlayView: some View {
-        GeometryReader { geo in
+        GeometryReader { geometry in
             ZStack(alignment: .leading) {
                 Rectangle()
                     .foregroundColor(.yellow)
-                    .mask(starsView)
-                    .frame(width: CGFloat(rating) / 5 * geo.size.width)
+//                    .fill(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                    .frame(width: CGFloat(rating) / 5 * geometry.size.width)
             }
         }
         .allowsHitTesting(false)
     }
     
     private var starsView: some View {
-        HStack {
+        HStack(spacing: 0) {
             ForEach(1..<6) { index in
                 Image(systemName: "star.fill")
                     .font(.largeTitle)
                     .foregroundColor(Color.gray)
-                    .onTapGesture {
-                        withAnimation(.easeInOut) {
-                            rating = index
-                        }
-                    }
+//                    .onTapGesture {
+//                        withAnimation(.easeInOut) {
+//                            rating = index
+//                        }
+//                    }
             }
         }
     }
 }
-

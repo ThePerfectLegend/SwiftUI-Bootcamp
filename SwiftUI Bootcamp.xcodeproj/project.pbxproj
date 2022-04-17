@@ -19,6 +19,7 @@
 		A86C63E92804467A00D645E9 /* Tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A86C63E82804467A00D645E9 /* Tada.mp3 */; };
 		A86C63EB2804468300D645E9 /* Badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A86C63EA2804468300D645E9 /* Badum.mp3 */; };
 		A86C63ED2804499E00D645E9 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C63EC2804499E00D645E9 /* Haptics.swift */; };
+		A8752A8F280A075E006B27DA /* SO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752A8E280A075E006B27DA /* SO.swift */; };
 		A8764E1A2806BFC600A7B2F6 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8764E192806BFC600A7B2F6 /* Arrays.swift */; };
 		A881ADEA2809C7110051851E /* Multithreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881ADE92809C7110051851E /* Multithreading.swift */; };
 		A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7127FC37B9008E5EFD /* SwiftUI_BootcampApp.swift */; };
@@ -46,6 +47,7 @@
 		A86C63E82804467A00D645E9 /* Tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tada.mp3; sourceTree = "<group>"; };
 		A86C63EA2804468300D645E9 /* Badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Badum.mp3; sourceTree = "<group>"; };
 		A86C63EC2804499E00D645E9 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		A8752A8E280A075E006B27DA /* SO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SO.swift; sourceTree = "<group>"; };
 		A8764E192806BFC600A7B2F6 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		A881ADE92809C7110051851E /* Multithreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multithreading.swift; sourceTree = "<group>"; };
 		A8C2EE6E27FC37B9008E5EFD /* SwiftUI Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 		A8C2EE6527FC37B9008E5EFD = {
 			isa = PBXGroup;
 			children = (
+				A8752A8E280A075E006B27DA /* SO.swift */,
 				A8C2EE7027FC37B9008E5EFD /* SwiftUI Bootcamp */,
 				A8C2EE6F27FC37B9008E5EFD /* Products */,
 			);
@@ -269,6 +272,7 @@
 				A8D91E5F27FC73070084D59D /* DragGestureView.swift in Sources */,
 				A85DE03C2801B3E1006879B9 /* ScrollReaderView.swift in Sources */,
 				A81DF3E728082E1A001B0507 /* CoreDataContainer.xcdatamodeld in Sources */,
+				A8752A8F280A075E006B27DA /* SO.swift in Sources */,
 				A8C2EE8027FC38AB008E5EFD /* LongPressGesture.swift in Sources */,
 				A86C63E428043BFA00D645E9 /* MaskView.swift in Sources */,
 				A881ADEA2809C7110051851E /* Multithreading.swift in Sources */,
