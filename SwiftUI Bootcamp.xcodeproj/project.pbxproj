@@ -12,6 +12,7 @@
 		A81DF3E128081118001B0507 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3DF28081118001B0507 /* FruitsContainer.xcdatamodeld */; };
 		A81DF3E4280829FC001B0507 /* CoreDataRelationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3E3280829FC001B0507 /* CoreDataRelationships.swift */; };
 		A81DF3E728082E1A001B0507 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3E528082E1A001B0507 /* CoreDataContainer.xcdatamodeld */; };
+		A85ADDED2876CA3E005C3C8E /* CacheImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */; };
 		A85DE03C2801B3E1006879B9 /* ScrollReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */; };
 		A85DE03E2801BBA6006879B9 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */; };
 		A8689A86284B5E2A008C59C5 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8689A85284B5E2A008C59C5 /* Closures.swift */; };
@@ -46,6 +47,7 @@
 		A81DF3E028081118001B0507 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		A81DF3E3280829FC001B0507 /* CoreDataRelationships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationships.swift; sourceTree = "<group>"; };
 		A81DF3E628082E1A001B0507 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImages.swift; sourceTree = "<group>"; };
 		A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderView.swift; sourceTree = "<group>"; };
 		A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		A8689A85284B5E2A008C59C5 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				A8C2EE8527FC5188008E5EFD /* Views */,
 				A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */,
 				A8C2EE7727FC37BC008E5EFD /* Preview Content */,
+				A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			files = (
 				A8C2EE7427FC37B9008E5EFD /* ContentView.swift in Sources */,
 				A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */,
+				A85ADDED2876CA3E005C3C8E /* CacheImages.swift in Sources */,
 				A81DF3E128081118001B0507 /* FruitsContainer.xcdatamodeld in Sources */,
 				A86C63E6280441F100D645E9 /* SoundEffects.swift in Sources */,
 				A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */,
