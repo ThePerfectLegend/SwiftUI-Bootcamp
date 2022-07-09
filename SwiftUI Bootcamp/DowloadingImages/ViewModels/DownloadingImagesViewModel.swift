@@ -30,6 +30,9 @@ class DownloadingImagesViewModel: ObservableObject {
         guard let photoModelData = try? JSONDecoder().decode([PhotoModel].self, from: fethedData) else {
                     throw URLError(.cannotCreateFile)
                 }
-        dataArray = photoModelData
+        
+        await MainActor.run {
+            self.dataArray = photoModelData
+        }
     }
 }

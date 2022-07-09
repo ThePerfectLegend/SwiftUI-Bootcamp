@@ -13,7 +13,8 @@ struct DownloadImagesRow: View {
     
     var body: some View {
         HStack {
-            Circle()
+            DownloadingImageView(url: model.url, key: "\(model.id)")
+                .clipShape(Circle())
                 .frame(width: 75, height: 75)
             VStack(alignment: .leading) {
                 Text(model.title)
