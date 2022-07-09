@@ -15,6 +15,7 @@
 		A835FFA028791C0C008529B0 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835FF9F28791C0C008529B0 /* DownloadingImageView.swift */; };
 		A835FFA228791CA0008529B0 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835FFA128791CA0008529B0 /* ImageLoadingViewModel.swift */; };
 		A835FFA428792569008529B0 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835FFA328792569008529B0 /* PhotoModelCacheManager.swift */; };
+		A835FFB328798E4E008529B0 /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */; };
 		A85ADDED2876CA3E005C3C8E /* CacheImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */; };
 		A85DE03C2801B3E1006879B9 /* ScrollReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */; };
 		A85DE03E2801BBA6006879B9 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */; };
@@ -58,6 +59,7 @@
 		A835FF9F28791C0C008529B0 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		A835FFA128791CA0008529B0 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		A835FFA328792569008529B0 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
 		A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImages.swift; sourceTree = "<group>"; };
 		A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderView.swift; sourceTree = "<group>"; };
 		A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				A8C2EE8527FC5188008E5EFD /* Views */,
 				A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */,
 				A8C2EE7727FC37BC008E5EFD /* Preview Content */,
+				A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C2EE7427FC37B9008E5EFD /* ContentView.swift in Sources */,
+				A835FFB328798E4E008529B0 /* CacheAsyncImage.swift in Sources */,
 				A8C70C3D28787EE10022A94F /* DownloadingImages.swift in Sources */,
 				A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */,
 				A85ADDED2876CA3E005C3C8E /* CacheImages.swift in Sources */,
