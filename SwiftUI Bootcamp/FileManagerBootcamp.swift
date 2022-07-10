@@ -14,7 +14,6 @@ class LocalFileManager {
     private init() { }
     
     func saveImage(image: UIImage, name: String) {
-        
         guard
             let data = image.jpegData(compressionQuality: 1.0),
             let path = getPathForImage(name: name) else {
@@ -37,7 +36,6 @@ class LocalFileManager {
                 print("Error getting path")
                 return nil
             }
-                
         return UIImage(contentsOfFile: path)
     }
     
@@ -54,6 +52,22 @@ class LocalFileManager {
         
     }
     
+    func deleteImage(name: String) {
+        guard
+            let path = getPathForImage(name: name)?.path,
+            FileManager.default.fileExists(atPath: path) else {
+                print("Error getting path")
+                return
+            }
+        
+        do {
+            try FileManager.default.removeItem(atPath: path)
+            print("Sucessfully deleted")
+        } catch let error {
+            print("Error deleting: \(error)")
+        }
+    }
+    
     
 }
 
@@ -61,6 +75,8 @@ class LocalFileManager {
 class FileManagerViewModel: ObservableObject {
     
     @Published var image: UIImage?
+    @Published var fileManagerImage: UIImage?
+    let fileManagerImageName = "photo2"
     let imageName = "photo"
     let manager = LocalFileManager.inctance
     
@@ -74,12 +90,16 @@ class FileManagerViewModel: ObservableObject {
     }
     
     func getImageFromFileManager() {
-        self.image = manager.getImage(name: imageName)
+        self.fileManagerImage = manager.getImage(name: fileManagerImageName)
     }
     
     func saveImage() {
         guard let image = image else  { return }
-        manager.saveImage(image: image, name: imageName)
+        manager.saveImage(image: image, name: fileManagerImageName)
+    }
+    
+    func deleteImage() {
+        manager.deleteImage(name: fileManagerImageName)
     }
     
 }
@@ -100,18 +120,52 @@ struct FileManagerBootcamp: View {
                         .cornerRadius(10)
                 }
                 
+                HStack {
+                    Button {
+                        vm.saveImage()
+                    } label: {
+                        Text("Save to FM")
+                            .foregroundColor(.white)
+                            .font(.headline)
+                            .padding()
+                            .padding(.horizontal)
+                            .background(Color.blue)
+                            .cornerRadius(10)
+                    }
+                    
+                    Button {
+                        vm.deleteImage()
+                    } label: {
+                        Text("Delete from FM")
+                            .foregroundColor(.white)
+                            .font(.headline)
+                            .padding()
+                            .padding(.horizontal)
+                            .background(Color.red)
+                            .cornerRadius(10)
+                    }
+                }
+                
                 Button {
-                    vm.saveImage()
+                    vm.getImageFromFileManager()
                 } label: {
-                    Text("Save to FM")
+                    Text("Get Image from FM")
                         .foregroundColor(.white)
                         .font(.headline)
                         .padding()
                         .padding(.horizontal)
-                        .background(Color.blue)
+                        .background(Color.green)
                         .cornerRadius(10)
                 }
                 
+                if let image = vm.fileManagerImage {
+                    Image(uiImage: image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 200, height: 200)
+                        .clipped()
+                        .cornerRadius(10)
+                }
                 
                 Spacer()
             }
