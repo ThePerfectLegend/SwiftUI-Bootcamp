@@ -29,6 +29,7 @@
 		A8764E1A2806BFC600A7B2F6 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8764E192806BFC600A7B2F6 /* Arrays.swift */; };
 		A881ADEA2809C7110051851E /* Multithreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881ADE92809C7110051851E /* Multithreading.swift */; };
 		A88EC713282150B5006B8A0C /* NavBarHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EC712282150B5006B8A0C /* NavBarHide.swift */; };
+		A8A8DDCE287ACCDF00638220 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A8DDCD287ACCDF00638220 /* FileManagerBootcamp.swift */; };
 		A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7127FC37B9008E5EFD /* SwiftUI_BootcampApp.swift */; };
 		A8C2EE7427FC37B9008E5EFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7327FC37B9008E5EFD /* ContentView.swift */; };
 		A8C2EE7627FC37BC008E5EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */; };
@@ -73,6 +74,7 @@
 		A8764E192806BFC600A7B2F6 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		A881ADE92809C7110051851E /* Multithreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multithreading.swift; sourceTree = "<group>"; };
 		A88EC712282150B5006B8A0C /* NavBarHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarHide.swift; sourceTree = "<group>"; };
+		A8A8DDCD287ACCDF00638220 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		A8C2EE6E27FC37B9008E5EFD /* SwiftUI Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C2EE7127FC37B9008E5EFD /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		A8C2EE7327FC37B9008E5EFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */,
 				A8C2EE7727FC37BC008E5EFD /* Preview Content */,
 				A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */,
+				A8A8DDCD287ACCDF00638220 /* FileManagerBootcamp.swift */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				A81DF3E728082E1A001B0507 /* CoreDataContainer.xcdatamodeld in Sources */,
 				A835FFA428792569008529B0 /* PhotoModelCacheManager.swift in Sources */,
 				A8752A8F280A075E006B27DA /* SO.swift in Sources */,
+				A8A8DDCE287ACCDF00638220 /* FileManagerBootcamp.swift in Sources */,
 				A8C70C452878889C0022A94F /* DownloadImagesRow.swift in Sources */,
 				A8C2EE8027FC38AB008E5EFD /* LongPressGesture.swift in Sources */,
 				A86C63E428043BFA00D645E9 /* MaskView.swift in Sources */,
