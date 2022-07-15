@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80836D628819E0F000EE7EF /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80836D528819E0F000EE7EF /* TimerBootcamp.swift */; };
 		A8196C772802BE50008AEF12 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8196C762802BE4F008AEF12 /* MultipleSheets.swift */; };
 		A81DF3DE28080E71001B0507 /* CoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3DD28080E71001B0507 /* CoreDataView.swift */; };
 		A81DF3E128081118001B0507 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3DF28081118001B0507 /* FruitsContainer.xcdatamodeld */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A80836D528819E0F000EE7EF /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		A8196C762802BE4F008AEF12 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		A81DF3DD28080E71001B0507 /* CoreDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataView.swift; sourceTree = "<group>"; };
 		A81DF3E028081118001B0507 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				A89DC8CB288167CC0086C988 /* DownloadWithCombine.swift */,
+				A80836D528819E0F000EE7EF /* TimerBootcamp.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				A881ADEA2809C7110051851E /* Multithreading.swift in Sources */,
 				A85DE03E2801BBA6006879B9 /* GeometryReaderView.swift in Sources */,
 				A8C70C43287881CA0022A94F /* PhotoModelDataService.swift in Sources */,
+				A80836D628819E0F000EE7EF /* TimerBootcamp.swift in Sources */,
 				A81DF3E4280829FC001B0507 /* CoreDataRelationships.swift in Sources */,
 				A81DF3DE28080E71001B0507 /* CoreDataView.swift in Sources */,
 				A88EC713282150B5006B8A0C /* NavBarHide.swift in Sources */,
