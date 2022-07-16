@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A80836D628819E0F000EE7EF /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80836D528819E0F000EE7EF /* TimerBootcamp.swift */; };
+		A80836D628819E0F000EE7EF /* AnimatedCounting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80836D528819E0F000EE7EF /* AnimatedCounting.swift */; };
 		A8196C772802BE50008AEF12 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8196C762802BE4F008AEF12 /* MultipleSheets.swift */; };
 		A81DF3DE28080E71001B0507 /* CoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3DD28080E71001B0507 /* CoreDataView.swift */; };
 		A81DF3E128081118001B0507 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3DF28081118001B0507 /* FruitsContainer.xcdatamodeld */; };
@@ -32,6 +32,11 @@
 		A88EC713282150B5006B8A0C /* NavBarHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EC712282150B5006B8A0C /* NavBarHide.swift */; };
 		A89DC8CC288167CC0086C988 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89DC8CB288167CC0086C988 /* DownloadWithCombine.swift */; };
 		A8A8DDCE287ACCDF00638220 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A8DDCD287ACCDF00638220 /* FileManagerBootcamp.swift */; };
+		A8A92EBC28829DF9006E5502 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EBB28829DF9006E5502 /* Countdown.swift */; };
+		A8A92EBE2882A13E006E5502 /* TimerExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EBD2882A13E006E5502 /* TimerExamples.swift */; };
+		A8A92EC02882A351006E5502 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EBF2882A351006E5502 /* CurrentTime.swift */; };
+		A8A92EC22882A63E006E5502 /* CountdownToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EC12882A63E006E5502 /* CountdownToDate.swift */; };
+		A8A92EC42882A8CD006E5502 /* AnimatedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EC32882A8CD006E5502 /* AnimatedTabView.swift */; };
 		A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7127FC37B9008E5EFD /* SwiftUI_BootcampApp.swift */; };
 		A8C2EE7427FC37B9008E5EFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C2EE7327FC37B9008E5EFD /* ContentView.swift */; };
 		A8C2EE7627FC37BC008E5EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C2EE7527FC37BC008E5EFD /* Assets.xcassets */; };
@@ -54,7 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A80836D528819E0F000EE7EF /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
+		A80836D528819E0F000EE7EF /* AnimatedCounting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCounting.swift; sourceTree = "<group>"; };
 		A8196C762802BE4F008AEF12 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		A81DF3DD28080E71001B0507 /* CoreDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataView.swift; sourceTree = "<group>"; };
 		A81DF3E028081118001B0507 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -79,6 +84,11 @@
 		A88EC712282150B5006B8A0C /* NavBarHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarHide.swift; sourceTree = "<group>"; };
 		A89DC8CB288167CC0086C988 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		A8A8DDCD287ACCDF00638220 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
+		A8A92EBB28829DF9006E5502 /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		A8A92EBD2882A13E006E5502 /* TimerExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerExamples.swift; sourceTree = "<group>"; };
+		A8A92EBF2882A351006E5502 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		A8A92EC12882A63E006E5502 /* CountdownToDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownToDate.swift; sourceTree = "<group>"; };
+		A8A92EC32882A8CD006E5502 /* AnimatedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabView.swift; sourceTree = "<group>"; };
 		A8C2EE6E27FC37B9008E5EFD /* SwiftUI Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C2EE7127FC37B9008E5EFD /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		A8C2EE7327FC37B9008E5EFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,9 +184,21 @@
 			isa = PBXGroup;
 			children = (
 				A89DC8CB288167CC0086C988 /* DownloadWithCombine.swift */,
-				A80836D528819E0F000EE7EF /* TimerBootcamp.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		A8A92EBA28829DBE006E5502 /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				A8A92EBD2882A13E006E5502 /* TimerExamples.swift */,
+				A80836D528819E0F000EE7EF /* AnimatedCounting.swift */,
+				A8A92EC32882A8CD006E5502 /* AnimatedTabView.swift */,
+				A8A92EBB28829DF9006E5502 /* Countdown.swift */,
+				A8A92EBF2882A351006E5502 /* CurrentTime.swift */,
+				A8A92EC12882A63E006E5502 /* CountdownToDate.swift */,
+			);
+			path = Timers;
 			sourceTree = "<group>";
 		};
 		A8C2EE6527FC37B9008E5EFD = {
@@ -210,6 +232,7 @@
 				A8196C762802BE4F008AEF12 /* MultipleSheets.swift */,
 				A8689A85284B5E2A008C59C5 /* Closures.swift */,
 				A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */,
+				A8A92EBA28829DBE006E5502 /* Timers */,
 				A89DC8CD288167D90086C988 /* Combine */,
 				A8C70C3728787E650022A94F /* DowloadingImages */,
 				A81DF3E228081126001B0507 /* CoreData */,
@@ -369,6 +392,7 @@
 				A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */,
 				A85ADDED2876CA3E005C3C8E /* CacheImages.swift in Sources */,
 				A81DF3E128081118001B0507 /* FruitsContainer.xcdatamodeld in Sources */,
+				A8A92EC22882A63E006E5502 /* CountdownToDate.swift in Sources */,
 				A86C63E6280441F100D645E9 /* SoundEffects.swift in Sources */,
 				A8C2EE8227FC4813008E5EFD /* MagnificationGesture.swift in Sources */,
 				A8764E1A2806BFC600A7B2F6 /* Arrays.swift in Sources */,
@@ -381,17 +405,21 @@
 				A8C2EE7227FC37B9008E5EFD /* SwiftUI_BootcampApp.swift in Sources */,
 				A8689A86284B5E2A008C59C5 /* Closures.swift in Sources */,
 				A8D91E6127FC7B2C0084D59D /* DragGestureView2.swift in Sources */,
+				A8A92EC02882A351006E5502 /* CurrentTime.swift in Sources */,
 				A86C63ED2804499E00D645E9 /* Haptics.swift in Sources */,
 				A8D91E5F27FC73070084D59D /* DragGestureView.swift in Sources */,
 				A835FFA228791CA0008529B0 /* ImageLoadingViewModel.swift in Sources */,
 				A8D6188C281AD08D00E84EC4 /* Menu.swift in Sources */,
 				A8C70C3F28787FE30022A94F /* PhotoModel.swift in Sources */,
 				A89DC8CC288167CC0086C988 /* DownloadWithCombine.swift in Sources */,
+				A8A92EC42882A8CD006E5502 /* AnimatedTabView.swift in Sources */,
 				A8DF7914280BFF8300D293D0 /* Localization.swift in Sources */,
 				A85DE03C2801B3E1006879B9 /* ScrollReaderView.swift in Sources */,
 				A81DF3E728082E1A001B0507 /* CoreDataContainer.xcdatamodeld in Sources */,
+				A8A92EBC28829DF9006E5502 /* Countdown.swift in Sources */,
 				A835FFA428792569008529B0 /* PhotoModelCacheManager.swift in Sources */,
 				A8752A8F280A075E006B27DA /* SO.swift in Sources */,
+				A8A92EBE2882A13E006E5502 /* TimerExamples.swift in Sources */,
 				A8A8DDCE287ACCDF00638220 /* FileManagerBootcamp.swift in Sources */,
 				A8C70C452878889C0022A94F /* DownloadImagesRow.swift in Sources */,
 				A8C2EE8027FC38AB008E5EFD /* LongPressGesture.swift in Sources */,
@@ -399,7 +427,7 @@
 				A881ADEA2809C7110051851E /* Multithreading.swift in Sources */,
 				A85DE03E2801BBA6006879B9 /* GeometryReaderView.swift in Sources */,
 				A8C70C43287881CA0022A94F /* PhotoModelDataService.swift in Sources */,
-				A80836D628819E0F000EE7EF /* TimerBootcamp.swift in Sources */,
+				A80836D628819E0F000EE7EF /* AnimatedCounting.swift in Sources */,
 				A81DF3E4280829FC001B0507 /* CoreDataRelationships.swift in Sources */,
 				A81DF3DE28080E71001B0507 /* CoreDataView.swift in Sources */,
 				A88EC713282150B5006B8A0C /* NavBarHide.swift in Sources */,
