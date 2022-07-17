@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A80836D628819E0F000EE7EF /* AnimatedCounting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80836D528819E0F000EE7EF /* AnimatedCounting.swift */; };
+		A81698CF2884372700B697F5 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81698CE2884372700B697F5 /* FuturesBootcamp.swift */; };
 		A8196C772802BE50008AEF12 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8196C762802BE4F008AEF12 /* MultipleSheets.swift */; };
 		A81DF3DE28080E71001B0507 /* CoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3DD28080E71001B0507 /* CoreDataView.swift */; };
 		A81DF3E128081118001B0507 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A81DF3DF28081118001B0507 /* FruitsContainer.xcdatamodeld */; };
@@ -63,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		A80836D528819E0F000EE7EF /* AnimatedCounting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCounting.swift; sourceTree = "<group>"; };
+		A81698CE2884372700B697F5 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 		A8196C762802BE4F008AEF12 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		A81DF3DD28080E71001B0507 /* CoreDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataView.swift; sourceTree = "<group>"; };
 		A81DF3E028081118001B0507 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				A8A92EC52882B8F3006E5502 /* SubscriberBootcamp.swift */,
 				A8A92EC72882BF58006E5502 /* SubscriberText.swift */,
 				A8A92EC92882EC7D006E5502 /* AdvancedCombine.swift */,
+				A81698CE2884372700B697F5 /* FuturesBootcamp.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				A8A92EBC28829DF9006E5502 /* Countdown.swift in Sources */,
 				A835FFA428792569008529B0 /* PhotoModelCacheManager.swift in Sources */,
 				A8752A8F280A075E006B27DA /* SO.swift in Sources */,
+				A81698CF2884372700B697F5 /* FuturesBootcamp.swift in Sources */,
 				A8A92EBE2882A13E006E5502 /* TimerExamples.swift in Sources */,
 				A8A8DDCE287ACCDF00638220 /* FileManagerBootcamp.swift in Sources */,
 				A8C70C452878889C0022A94F /* DownloadImagesRow.swift in Sources */,
