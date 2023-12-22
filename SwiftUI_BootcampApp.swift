@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SwiftUI_BootcampApp: App {
+    
+//    @StateObject var tabBarVM = TabBarViewModel()
+//    @State var selection = TabBarItem(selectedIcon: "house", title: "Home")
+    
     var body: some Scene {
         WindowGroup {
-            AdvancedCombine()
+            CountdownToDate()
         }
     }
 }

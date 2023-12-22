@@ -12,13 +12,13 @@ struct CountdownToDate: View {
     let timer = Timer.publish(every: 1.0, tolerance: nil, on: .main, in: .common).autoconnect()
     
     @State var timeRemaining = ""
-    let futureDate = Calendar.current.date(byAdding: .day, value: 1, to: Date()) ?? Date()
+    let futureDate = Calendar.current.date(byAdding: .minute, value: 10, to: Date()) ?? Date()
     
     func updateTime() {
         let remaining = Calendar.current.dateComponents([.hour, .minute, .second], from: Date(), to: futureDate) // Difference between two dates
-        let hour = remaining.hour ?? 0
-        let minute = remaining.minute ?? 0
-        let second = remaining.second ?? 0
+        let hour = remaining.hour ?? 00
+        let minute = remaining.minute ?? 00
+        let second = remaining.second ?? 00
         timeRemaining = "\(hour):\(minute):\(second)"
     }
     
