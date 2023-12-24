@@ -8,44 +8,14 @@
 import SwiftUI
 import Combine
 
-protocol NewDataServiceProtocol {
-    func downloadItemsWithEscaping(completion: @escaping(_ items: [String]) -> Void)
-    func downloadDataWithCombine() -> AnyPublisher<[String], Error>
-}
-
-class NewMockDataService: NewDataServiceProtocol {
-    
-    let items: [String]
-    
-    init(items: [String]?) {
-        self.items = items ?? ["One", "Two", "Three"]
-    }
-    
-    func downloadItemsWithEscaping(completion: @escaping(_ items: [String]) -> Void) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            completion(self.items)
-        }
-    }
-    
-    func downloadDataWithCombine() -> AnyPublisher<[String], Error> {
-        Just(items)
-            .tryMap({ publishedItems in
-                guard !publishedItems.isEmpty else {
-                    throw URLError(.badServerResponse)
-                }
-                return publishedItems
-            })
-            .eraseToAnyPublisher()
-    }
-    
-}
-
 class UnitTestingViewModel: ObservableObject {
     
     @Published var isPremium: Bool
     @Published var dataArray: [String] = []
     @Published var selectedItem: String? = nil
     let dataService: NewDataServiceProtocol
+    private var cancellables: Set<AnyCancellable> = []
+    
     init(
         isPremium: Bool,
         dataService: NewDataServiceProtocol = NewMockDataService(items: nil)
@@ -86,9 +56,19 @@ class UnitTestingViewModel: ObservableObject {
     }
     
     func downloadWithEscaping() {
-        dataService.downloadItemsWithEscaping { items in
-            self.dataArray = items
+        dataService.downloadItemsWithEscaping { [weak self] items in
+            self?.dataArray = items
         }
+    }
+    
+    func downloadWithCombine() {
+        dataService.downloadDataWithCombine()
+            .sink { _ in
+                
+            } receiveValue: { [weak self] returnedItems in
+                self?.dataArray = returnedItems
+            }
+            .store(in: &cancellables)
     }
     
 }

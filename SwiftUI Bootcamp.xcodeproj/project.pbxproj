@@ -18,6 +18,8 @@
 		A835FFA228791CA0008529B0 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835FFA128791CA0008529B0 /* ImageLoadingViewModel.swift */; };
 		A835FFA428792569008529B0 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835FFA328792569008529B0 /* PhotoModelCacheManager.swift */; };
 		A835FFB328798E4E008529B0 /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */; };
+		A83B69072B38315C00061FAB /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83B69062B38315C00061FAB /* NewMockDataService.swift */; };
+		A83B69092B38319500061FAB /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83B69082B38319500061FAB /* NewMockDataService_Tests.swift */; };
 		A85ADDED2876CA3E005C3C8E /* CacheImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */; };
 		A85DE03C2801B3E1006879B9 /* ScrollReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */; };
 		A85DE03E2801BBA6006879B9 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */; };
@@ -94,6 +96,8 @@
 		A835FFA128791CA0008529B0 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		A835FFA328792569008529B0 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
 		A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		A83B69062B38315C00061FAB /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		A83B69082B38319500061FAB /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		A85ADDEC2876CA3E005C3C8E /* CacheImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImages.swift; sourceTree = "<group>"; };
 		A85DE03B2801B3E1006879B9 /* ScrollReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderView.swift; sourceTree = "<group>"; };
 		A85DE03D2801BBA6006879B9 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -256,6 +260,7 @@
 			children = (
 				A8B4BFCA2B35BFBF00A3DF6F /* UnitTestingView.swift */,
 				A8B4BFCC2B35C24300A3DF6F /* UnitTestingViewModel.swift */,
+				A83B69062B38315C00061FAB /* NewMockDataService.swift */,
 			);
 			path = UnitTesting;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			children = (
 				A8B4BFD42B35C33800A3DF6F /* SwiftUI_BootcampTests.swift */,
 				A8B4BFDB2B35C4C600A3DF6F /* UnitTestingViewModel_Tests.swift */,
+				A83B69082B38319500061FAB /* NewMockDataService_Tests.swift */,
 			);
 			path = "SwiftUI BootcampTests";
 			sourceTree = "<group>";
@@ -511,6 +517,7 @@
 			files = (
 				A8B4BFDC2B35C4C700A3DF6F /* UnitTestingViewModel_Tests.swift in Sources */,
 				A8B4BFD52B35C33800A3DF6F /* SwiftUI_BootcampTests.swift in Sources */,
+				A83B69092B38319500061FAB /* NewMockDataService_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +533,7 @@
 				A8C2EE8427FC4F2B008E5EFD /* RotationGestureView.swift in Sources */,
 				A8F9080728C06F2100780280 /* PillReminderTabBar.swift in Sources */,
 				A85ADDED2876CA3E005C3C8E /* CacheImages.swift in Sources */,
+				A83B69072B38315C00061FAB /* NewMockDataService.swift in Sources */,
 				A81DF3E128081118001B0507 /* FruitsContainer.xcdatamodeld in Sources */,
 				A8A92EC22882A63E006E5502 /* CountdownToDate.swift in Sources */,
 				A8A92EC82882BF58006E5502 /* SubscriberText.swift in Sources */,
