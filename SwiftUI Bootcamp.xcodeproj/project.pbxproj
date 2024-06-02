@@ -257,6 +257,14 @@
 			path = Timers;
 			sourceTree = "<group>";
 		};
+		A8AE1D252C0C54E90014A0C5 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				A8AE1D232C0C3ABB0014A0C5 /* NavigationStackView.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
 		A8B4BFC92B35BFA200A3DF6F /* UnitTesting */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +308,7 @@
 		A8C2EE7027FC37B9008E5EFD /* SwiftUI Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				A8AE1D252C0C54E90014A0C5 /* NavigationStack */,
 				A8B4BFC92B35BFA200A3DF6F /* UnitTesting */,
 				A8F9080528C06DF300780280 /* PillReminderTabTar */,
 				A8C97FBE28BE0A5900ECF817 /* CustomTabBar */,
@@ -325,7 +334,6 @@
 				A8C2EE7727FC37BC008E5EFD /* Preview Content */,
 				A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */,
 				A8A8DDCD287ACCDF00638220 /* FileManagerBootcamp.swift */,
-				A8AE1D232C0C3ABB0014A0C5 /* NavigationStackView.swift */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";

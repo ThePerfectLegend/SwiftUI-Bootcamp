@@ -11,16 +11,15 @@ struct NavigationStackView: View {
     
     private let fruits = ["Apple", "Orange", "Waterlemon", "Pineapple", "Passion Fruit"]
     
-    @State private var stackPath: [String] = []
+    @State private var path = NavigationPath()
     
     var body: some View {
-        NavigationStack(path: $stackPath) {
+        NavigationStack(path: $path) {
             ScrollView {
                 VStack(spacing: 20) {
                     Button(action: {
-                        stackPath.append(contentsOf: [
-                        "Coconut", "Mango", "Waterlemon"
-                        ])
+                        guard let element = fruits.randomElement() else { return }
+                        path.append(element)
                     }) {
                         Text("Super segue")
                     }
@@ -30,7 +29,7 @@ struct NavigationStackView: View {
                         }
                     }
                     Divider()
-                    ForEach(0..<10) { value in
+                    ForEach(0..<5) { value in
                         NavigationLink(value: value) {
                             Text("Click For Navigate To Screen \(value)")
                         }
@@ -40,26 +39,12 @@ struct NavigationStackView: View {
             }
             .navigationTitle("Navigation Stack")
             .navigationDestination(for: Int.self) { value in
-                SecondScreenView(value: value)
+                Text("Value Screen For \(value)")
             }
             .navigationDestination(for: String.self) { fruit in
                 Text("Fruit Screen For \(fruit)")
             }
         }
-    }
-}
-
-struct SecondScreenView: View {
-    
-    private let value: Int
-    
-    init(value: Int) {
-        self.value = value
-        print("SecondScreenView inited with \(value)")
-    }
-    
-    var body: some View {
-        Text("Screen \(value)")
     }
 }
 
@@ -70,5 +55,9 @@ struct SecondScreenView: View {
 
 // MARK: NavigationStack vs NavigationView
 // 1. NavigationStack has lazy loading by default
-// 2. NavigationStack has option for navigation path for navigate to few screens forward
-// 3. NavigationStack supporting from iOS 16
+// 2. NavigationStack(path:) allows managing a navigation path with support for different data types and navigating multiple screens forward
+// 3. NavigationStack is supported from iOS 16 and later
+// 4. NavigationStack supports serialization of the navigation path, allowing to save and restore user screen state between sessions
+// 5. NavigationStack is more integrated with modern SwiftUI APIs
+// 6. NavigationView supports older iOS versions (iOS 13 and later)
+// 7. NavigationView is simpler for basic navigation but less flexible and powerful compared to NavigationStack
