@@ -43,6 +43,7 @@
 		A8A92EC62882B8F3006E5502 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EC52882B8F3006E5502 /* SubscriberBootcamp.swift */; };
 		A8A92EC82882BF58006E5502 /* SubscriberText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EC72882BF58006E5502 /* SubscriberText.swift */; };
 		A8A92ECA2882EC7D006E5502 /* AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A92EC92882EC7D006E5502 /* AdvancedCombine.swift */; };
+		A8AE1D242C0C3ABB0014A0C5 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE1D232C0C3ABB0014A0C5 /* NavigationStackView.swift */; };
 		A8B4BFCB2B35BFBF00A3DF6F /* UnitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4BFCA2B35BFBF00A3DF6F /* UnitTestingView.swift */; };
 		A8B4BFCD2B35C24300A3DF6F /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4BFCC2B35C24300A3DF6F /* UnitTestingViewModel.swift */; };
 		A8B4BFD52B35C33800A3DF6F /* SwiftUI_BootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4BFD42B35C33800A3DF6F /* SwiftUI_BootcampTests.swift */; };
@@ -121,6 +122,7 @@
 		A8A92EC52882B8F3006E5502 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		A8A92EC72882BF58006E5502 /* SubscriberText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberText.swift; sourceTree = "<group>"; };
 		A8A92EC92882EC7D006E5502 /* AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine.swift; sourceTree = "<group>"; };
+		A8AE1D232C0C3ABB0014A0C5 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		A8B4BFCA2B35BFBF00A3DF6F /* UnitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingView.swift; sourceTree = "<group>"; };
 		A8B4BFCC2B35C24300A3DF6F /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
 		A8B4BFD22B35C33800A3DF6F /* SwiftUI BootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI BootcampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,6 +325,7 @@
 				A8C2EE7727FC37BC008E5EFD /* Preview Content */,
 				A835FFB228798E4E008529B0 /* CacheAsyncImage.swift */,
 				A8A8DDCD287ACCDF00638220 /* FileManagerBootcamp.swift */,
+				A8AE1D232C0C3ABB0014A0C5 /* NavigationStackView.swift */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AE1D242C0C3ABB0014A0C5 /* NavigationStackView.swift in Sources */,
 				A8C97FC428BE254E00ECF817 /* TabBarViewModel.swift in Sources */,
 				A8C2EE7427FC37B9008E5EFD /* ContentView.swift in Sources */,
 				A835FFB328798E4E008529B0 /* CacheAsyncImage.swift in Sources */,
@@ -765,10 +769,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Bootcamp/Preview Content\"";
-				DEVELOPMENT_TEAM = WV8G99LA38;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -776,6 +781,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -783,6 +789,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nizami-Tagiyev.SwiftUI-Bootcamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -794,10 +801,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Bootcamp/Preview Content\"";
-				DEVELOPMENT_TEAM = WV8G99LA38;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -805,6 +813,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -812,6 +821,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nizami-Tagiyev.SwiftUI-Bootcamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
